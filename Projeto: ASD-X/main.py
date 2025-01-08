@@ -500,7 +500,10 @@ class Window():
                 InterfaceElements.drawText("dois seram revelados após a confirmação.", helpFont, (0,0,0), screen, 15, 120+28*2-4)
                 InterfaceElements.drawText("O jogo acaba quando a vida de pelo menos", helpFont, (0,0,0), screen, 15, 120+28*3-2)
                 InterfaceElements.drawText("um jogador chege a zero.", helpFont, (0,0,0), screen, 15, 120+28*4-2)
-                InterfaceElements.drawText("Sua pontuação será salva no computador.", helpFont, (0,0,0), screen, 15, 120+28*5-6)
+                InterfaceElements.drawText("Sua pontuação será salva no computador.", helpFont, (0,0,0), screen, 15, 120+28*5-8)
+                InterfaceElements.drawText("O damage mod o jogador pode diminuir até", helpFont, (0,0,0), screen, 15, 120+28*6-10)
+                InterfaceElements.drawText("menos oito, enquanto do oponente pode diminuir", helpFont, (0,0,0), screen, 15, 120+28*7-8)
+                InterfaceElements.drawText("até zero.", helpFont, (0,0,0), screen, 15, 120+28*8-12)
 
             for event in pygame.event.get():
                 if event.type == QUIT:
