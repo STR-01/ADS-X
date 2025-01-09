@@ -16,7 +16,6 @@ class GameSystem:
     def pickMoves(moves):
 
         size = len(moves)
-        print(size)
 
         if size != 4:
             move1 = GameSystem.__randomAttack()
